@@ -1,2 +1,24 @@
-# LaissezFaire
-Laissez-Faire : Fully Asymmetric Backscatter Communication, SIGCOMM 2015
+# Code release for Laissez Faire : Fully Asymmetric Backscatter Communication
+
+In this file we describe the essentials to recreated 
+
+### Version
+1.0 (Initial release)
+
+### Test Platform
+*  USRP N210 with SBX 400-4400 MHz Rx/Tx (40 MHz), connected via Gigabit Ethernet
+*  Matlab R2012a running on Linux or Matlab R2015b on Mac
+*  Python 2.7.10
+*  GNU Radio Companion 3.7.2.1
+
+### Hardware requirements
+The performance of Laissze Faire scales approximate linearly untill the aggregated throughput gets closer to channel capacity. Thus, it is recommended to use a large number of Backscatter nodes to test the performance of this sysytem. We deployed 16 UMass Moo nodes. 
+
+
+### Accquire data
+
+You need Gulp installed globally:
+
+```sh
+$ python top_block.py
+```
