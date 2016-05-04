@@ -1,4 +1,4 @@
-# Laissez Faire : Fully Asymmetric Backscatter Communication
+## Laissez Faire : Fully Asymmetric Backscatter Communication
 
 In this file we describe the essential steps to run Laissez Faire.
 
