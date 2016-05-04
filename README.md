@@ -21,3 +21,4 @@ Find top_block.py from ./python/ . You may have to change device_addr as well as
 ```sh
 $ python top_block.py
 ```
+Alternatively, if you don't have the required hardware, you can find some demonstrative traces from ./Matlab/  .
