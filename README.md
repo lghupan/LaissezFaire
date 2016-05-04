@@ -12,12 +12,11 @@ In this file we describe the essentials to recreated
 *  GNU Radio Companion 3.7.2.1
 
 ### Hardware requirements
-The performance of Laissze Faire scales approximate linearly untill the aggregated throughput gets closer to channel capacity. Thus, it is recommended to use a large number of Backscatter nodes to test the performance of this sysytem. We deployed 16 UMass Moo nodes. 
-
+The performance of Laissze Faire scales approximate linearly untill the aggregated throughput gets closer to channel capacity. Thus, it is recommended to use a large number of Backscatter nodes to test the performance of this sysytem. We deployed 16 UMass Moo nodes. A simplified version of UMass Moo can be found at: 
+https://github.com/lghupan/UMassMooTXOnly
 
 ### Accquire data
-
-You need Gulp installed globally:
+Find top_block.py from ./python/ . You may have to change device_addr as well as   self.blocks_file_sink_0 accordingly. Then run
 
 ```sh
 $ python top_block.py
