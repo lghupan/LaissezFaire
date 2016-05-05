@@ -1,6 +1,6 @@
 ## Laissez Faire : Fully Asymmetric Backscatter Communication
 
-In this file we describe the essential steps to run Laissez Faire.
+The essential steps to run Laissez Faire is described in this file.
 
 ### Version
 1.0 (Initial release)
@@ -12,7 +12,7 @@ In this file we describe the essential steps to run Laissez Faire.
 *  GNU Radio Companion 3.7.2.1
 
 ### Hardware requirements
-The performance of Laissze Faire scales approximate linearly untill the aggregated throughput gets closer to channel capacity. Thus, it is recommended to use a large number of Backscatter nodes to test the performance of this sysytem. We deployed 16 UMass Moo nodes. A simplified version of UMass Moo can be found at: 
+The performance of Laissze Faire scales approximate linearly untill the aggregated throughput gets closer to channel capacity. Thus, it is recommended to use a large number of Backscatter nodes to test the performance of this sysytem. We deployed 16 UMass Moo nodes. However, a simplified version of UMass Moo can be found at: 
 https://github.com/lghupan/UMassMooTXOnly
 
 Notice that if you connect multiple simplified UMass Moo tags to the same microcontroller, you will not be able to observe the drift in clock as there are only one clock source. The result is that these tags are either continously colliding or completely free from colliding.
@@ -29,9 +29,7 @@ Be sure to check the size of output file. They should be larger than 100MB, othe
 
 ### Process data
 The code for processing data can be found in ./Matlab/ .
-As an example,
-
-### Development
+As an example, the 
 
 ### Cite and contact
 Please cite our paper if you benefit from this system:
