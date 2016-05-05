@@ -1,5 +1,7 @@
 ## Laissez Faire : Fully Asymmetric Backscatter Communication
 
+![Overall](/overall.png?raw=true)
+
 The essential steps to run Laissez Faire is described in this file.
 
 ### Version
